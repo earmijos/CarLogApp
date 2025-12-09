@@ -1,0 +1,13 @@
+# CarLog Backend Dependencies
+# ===========================
+
+# Web Framework
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# Production Server
+gunicorn>=21.0.0
+
+# Utilities
+python-dateutil>=2.8.0
+requests>=2.31.0

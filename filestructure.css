@@ -1,0 +1,37 @@
+CarLog/
+│
+├── backend/
+│   ├── app.py
+│   ├── db/
+│   │   ├── carlog.db            ← your uploaded SQLite database
+│   │   └── db_helper.py
+│   ├── routes/
+│   │   ├── maintenance.py
+│   │   ├── repair.py
+│   │   ├── fuel_log.py
+│   │   └── car_info.py
+│   ├── services/
+│   │   ├── maintenance_service.py
+│   │   ├── repair_service.py
+│   │   ├── fuel_log_service.py
+│   │   └── car_info_service.py
+│   └── utils/
+│       └── __init__.py
+│
+├── frontend/
+│   ├── lib/
+│   │   ├── main.dart
+│   │   ├── screens/
+│   │   │   ├── maintenance_screen.dart
+│   │   │   ├── repair_screen.dart
+│   │   │   ├── fuel_log_screen.dart
+│   │   │   └── car_info_screen.dart
+│   │   ├── services/
+│   │   │   └── api_service.dart
+│   │   └── widgets/
+│   │       └── common_widgets.dart
+│   └── pubspec.yaml
+│
+├── README.md
+└── requirements.txt
+}
